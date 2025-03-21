@@ -1,0 +1,22 @@
+<div class="d-flex justify-content-center align-items-center h-100">
+    <form [formGroup]="loginform">
+        <div class="mb-3">
+            <label for="username" class="form-label">UserName</label>
+            <input type="text" class="form-control" id="username" formControlName="username" >
+            
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" formControlName="password">
+    </div>
+    <div *ngIf="errorMessage.value" class="alert alert-danger">
+        {{ errorMessage.value }}
+      </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary" (click)="onlogin()">Login</button>
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-secondary" routerLink="/register">register</button>
+    </div>
+</form>
+</div>

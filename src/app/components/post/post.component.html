@@ -1,0 +1,19 @@
+
+<div class="border" *ngIf="!hidden" >
+    <div class="d-flex justify-content-between">
+        <app-user [userData]="get_post_user(post.userid)" [postdate]="post.date" />
+        <div>
+            <i class="fa-solid fa-pen-to-square m-2" (click)="editpost(post.id)" *ngIf="isauthuser()" ></i>
+           @if (isauthuser()) {
+               <button class="btn-close m-2" (click)="deletepost()" ></button> 
+           }
+           @else {
+            <button class="btn m-2" (click)="hidepost()" >Hide</button>
+           }
+        </div>
+    </div>
+    <app-data [postdata]="post" />
+    <hr>
+    <app-reacts/>
+    <app-comments/>
+</div>

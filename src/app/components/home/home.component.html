@@ -1,0 +1,14 @@
+<div >
+ 
+    <div class="container">
+      <div class="row justify-content-center gap-5">
+        <app-post *ngFor="let item of posts " [post]="item" class="col-6"/>
+        
+      </div>
+    </div>
+    <div id="addpost"  class="position-fixed">  
+      <button id="addpost-btn" class="btn btn-primary rounded-circle w-100 h-100 p-0 " routerLink="createPost" *ngIf="currentUser" >+</button>
+    </div>
+  </div>
+  
+ 

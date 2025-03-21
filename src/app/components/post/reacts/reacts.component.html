@@ -1,0 +1,7 @@
+<div class="d-flex justify-content-evenly p-1 m-2">
+    <i *ngFor="let reaction of reactions; let i = index"
+       (click)="selectReaction(i)"
+       [class]="'fa-lg mx-2 col-pur ' + reaction.icon"
+       [ngClass]="{'col-blue': selectedReaction === i}">
+    </i>
+  </div>

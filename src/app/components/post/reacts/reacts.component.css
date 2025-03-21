@@ -1,0 +1,16 @@
+.reaction-btn {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.reaction-btn:hover i {
+  transform: scale(1.2);
+  color: var(--bs-primary);
+}
+
+.col-gray {
+  color:grey; 
+}
+.col-blue {
+  color:blue !important; 
+}

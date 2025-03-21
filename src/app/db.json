@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "1234567890123",
+      "postdata": "I love my family",
+      "img": "",
+      "date": "2025-02-13",
+      "userid": "0987654321123"
+    },
+    {
+      "id": "3215678902315",
+      "postdata": "I need Some free time",
+      "img": "https://www.balagh.com/upload_list/source/Article/Old/farag.jpg",
+      "date": "2025-01-10",
+      "userid": "3214433588901"
+    },
+    {
+      "id": "6578902310665",
+      "postdata": "Eid Mubarak",
+      "img": "https://media.zid.store/05b49721-5e4d-4a2c-a014-748561d593cd/f47e3d3a-a583-452b-a981-10285ffb3487.jpg",
+      "date": "2025-08-24",
+      "userid": "0011336622377"
+    },
+    {
+      "id": "8776900322145",
+      "postdata":"Ramadan Kareem",
+      "img": "https://janoubia.com/wp-content/uploads/2019/05/Ramadan-Kareem-768x448.jpg",
+      "date": "2025-03-14",
+      "userid": "1235667889012"
+    }
+  ],
+  "users": [
+    {
+      "id": "3215678900123",
+      "username": "Amira",
+      "password": "123",
+      "userImg": "https://bigmache.com/wp-content/uploads/2023/11/%D8%B5%D9%88%D8%B1-%D8%A8%D8%B1%D9%88%D9%81%D8%A7%D9%8A%D9%84-%D9%88%D8%A7%D8%AA%D8%B3-%D8%A8%D9%86%D8%A7%D8%AA-%D9%83%D9%8A%D9%88%D8%AA-%D9%85%D8%AD%D8%AC%D8%A8%D8%A7%D8%AA-1024x1024.jpg"
+    },
+    {
+      "id": "2134567890234",
+      "username": "Abdo",
+      "password": "456",
+      "userImg": "https://esskay-sons.com/wp-content/uploads/2024/04/pngtree-man-avatar-isolated-on-white-background-png-image_4891418.png"
+    },
+    {
+      "id": "5412367890998",
+      "username": "Koke",
+      "password": "789",
+      "userImg": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6CdEzw5Ro9yGSUdG0X-EFnxQ65nHdRzOISVm4Pvgy6iMc4p2Ud_sXtXaq1HE2s7PxNysjzHaiAifg8r4EWPtatZq-imleiC8psNVdpuiOpsElZKVoaRQ6rlzYQjhc6nHCCo6CxIIVx6TQpXj1zj2nJPpV0MDNB5IQ6Gk6PjBHFB-it4RHPiWQmUtyCic/s640/%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA-%D8%B1%D9%85%D8%B2%D9%8A%D8%A7%D8%AA-%D8%A8%D9%86%D8%A7%D8%AA-%D9%85%D8%AD%D8%AC%D8%A8%D8%A7%D8%AA-2.jpg"
+    }
+  ]
+}

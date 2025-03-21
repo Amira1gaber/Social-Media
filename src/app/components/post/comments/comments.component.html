@@ -1,0 +1,14 @@
+<div class="mb-3">
+  <label for="commentBox" class="form-label fw-semibold">Your Comment</label>
+  <textarea
+    [(ngModel)]="comment"
+    class="form-control rounded-3 p-2"
+    id="commentBox"
+    rows="3"
+    placeholder="Write your comment here..."
+  ></textarea>
+  
+  <div *ngIf="comment" class="mt-2 p-2 bg-light border rounded">
+    <strong>Preview:</strong> {{ comment }}
+  </div>
+</div>

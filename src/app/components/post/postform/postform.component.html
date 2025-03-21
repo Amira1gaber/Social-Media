@@ -1,0 +1,52 @@
+<div class="d-flex flex-column align-items-center justify-content-center">
+    <div class="card shadow-lg p-4 w-75 form-container">
+      
+      <h3 class="text-center mb-4">
+        {{ postId ? 'Update Post' : 'Create a New Post' }}
+      </h3>
+  
+      <form [formGroup]="postform" (ngSubmit)="onSubmit()">
+      
+        <div class="mb-3">
+          <label for="postData" class="form-label fw-semibold">Post Content</label>
+          <input
+            type="text"
+            id="postData"
+            placeholder="What do you think about?"
+            formControlName="postdata"
+            class="form-control"
+          />
+        </div>
+  
+       
+        <div class="mb-3">
+          <label for="postImg" class="form-label fw-semibold">Post Image URL</label>
+          <input
+            type="text"
+            id="postImg"
+            placeholder="Image source URL"
+            formControlName="postimg"
+            class="form-control"
+          />
+        </div>
+  
+      
+        <button 
+          class="btn w-100 mb-2"
+          [ngClass]="{
+            'btn-primary': postform.valid,
+            'btn-danger opacity-50': postform.invalid
+          }"
+          [disabled]="postform.invalid"
+        >
+          {{ postId ? 'Edit Post' : 'Add New Post' }}
+        </button>
+  
+        
+        <button class="btn btn-outline-secondary w-100" routerLink="/">
+          Back to Home
+        </button>
+      </form>
+  
+    </div>
+  </div>
